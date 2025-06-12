@@ -23,38 +23,38 @@ def notify_and_update_products():
                     if sub["alias"] == alias:
                         user_id = sub["user_id"]
                         last_status = sub.get("last_notified_status", None)
-                        try:
-                            if new_status == "in_stock":
-                                await bot.send_message(
-                                    chat_id=user_id,
-                                    text=f"{product['name']} is back in stock! (₹{product['price']})\n{product['url']}"
-                                )
-                            else:
-                                await bot.send_message(
-                                    chat_id=user_id,
-                                    text=f"{product['name']} is now OUT OF STOCK. We'll notify you when it's back!"
-                                )
-                        except Exception as e:
-                            print(f"Failed to notify {user_id}: {e}")
-                        sub["last_notified_status"] = new_status
+                        # try:
+                        #     if new_status == "in_stock":
+                        #         await bot.send_message(
+                        #             chat_id=user_id,
+                        #             text=f"{product['name']} is back in stock! (₹{product['price']})\n{product['url']}"
+                        #         )
+                        #     else:
+                        #         await bot.send_message(
+                        #             chat_id=user_id,
+                        #             text=f"{product['name']} is now OUT OF STOCK. We'll notify you when it's back!"
+                        #         )
+                        # except Exception as e:
+                        #     print(f"Failed to notify {user_id}: {e}")
+                        # sub["last_notified_status"] = new_status
                     
                                             
                         # Notify if status changed
-                        # if last_status != new_status:
-                        #     try:
-                        #         if new_status == "in_stock":
-                        #             await bot.send_message(
-                        #                 chat_id=user_id,
-                        #                 text=f"{product['name']} is back in stock! (₹{product['price']})\n{product['url']}"
-                        #             )
-                        #         else:
-                        #             await bot.send_message(
-                        #                 chat_id=user_id,
-                        #                 text=f"{product['name']} is now OUT OF STOCK. We'll notify you when it's back!"
-                        #             )
-                        #     except Exception as e:
-                        #         print(f"Failed to notify {user_id}: {e}")
-                        #     sub["last_notified_status"] = new_status
+                        if last_status != new_status:
+                            try:
+                                if new_status == "in_stock":
+                                    await bot.send_message(
+                                        chat_id=user_id,
+                                        text=f"{product['name']} is back in stock! (₹{product['price']})\n{product['url']}"
+                                    )
+                                else:
+                                    await bot.send_message(
+                                        chat_id=user_id,
+                                        text=f"{product['name']} is now OUT OF STOCK. We'll notify you when it's back!"
+                                    )
+                            except Exception as e:
+                                print(f"Failed to notify {user_id}: {e}")
+                            sub["last_notified_status"] = new_status
             print(f"Sent status updates for {len(products)} protein products to all subscribers.")
             await asyncio.sleep(300)  # 5 minutes
     asyncio.run(notify_loop())

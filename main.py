@@ -2,6 +2,8 @@ import subprocess
 import threading
 import time
 import sys
+from flask import Flask
+import os
 
 # Use the current Python executable (from venv)
 PYTHON_EXEC = sys.executable
@@ -15,7 +17,19 @@ def run_script(script):
     t.start()
     return t
 
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Amul bot is running!"
+
+def run_flask():
+    port = int(os.environ.get("PORT", 3000))
+    app.run(host="0.0.0.0", port=port)
+
 if __name__ == "__main__":
+    # Start Flask server in a thread
+    threading.Thread(target=run_flask, daemon=True).start()
     # Start the Telegram bot (user interaction)
     run_script("bot_main.py")
     # Start the notifier (periodic stock check)
