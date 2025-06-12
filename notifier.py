@@ -18,7 +18,7 @@ def notify_and_update_products():
                 now_qty = product.get("inventory_quantity", 0)
                 low_stock_qty = product.get("inventory_low_stock_quantity", 0)
                 # Determine new status using low stock threshold
-                new_status = "in_stock" if now_qty > low_stock_qty else "out_of_stock"
+                new_status = "in_stock" if now_qty > 0 else "out_of_stock"
                 for sub in subs:
                     if sub["alias"] == alias:
                         user_id = sub["user_id"]
