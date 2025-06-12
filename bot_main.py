@@ -3,7 +3,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 from db import get_products, get_subscriptions, save_subscriptions
 import os
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "8133480794:AAGWMhio0K6W08dydB1fY6UDd5UN-yVvvRo")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(

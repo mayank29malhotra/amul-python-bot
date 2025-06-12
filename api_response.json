@@ -180,50 +180,36 @@
       "inventory_management_level": "product"
     },
     {
-      "_id": "6636020d5c0420e92d79ebdd",
+      "_id": "651d0d19e8ac81a61d2d70b5",
       "seller": "65000c5ebad4464748bf1d15",
-      "alias": "amul-high-protein-paneer-400-g-or-pack-of-2",
+      "alias": "amul-high-protein-blueberry-shake-200-ml-or-pack-of-30",
       "images": [
         {
-          "image": "671b30a3caec6f032c8154ed/01-hero-image_amul-high-protein-paneer-400g.png"
+          "image": "651d0bb0f3bfadbbcc5f7214/01-hero-image-multipack-amul-protein-blueberry-shake-200ml.png"
         },
         {
-          "image": "6661ad7de802146aae54dde7/02-fop_amul-high-protein-paneer-400g.png",
-          "caption": "1",
-          "tags": ""
+          "image": "651d0bb0fead728582183635/02-fop_amul-protein-blueberry-shake-200ml.png"
         },
         {
-          "image": "6661ad7de802146aae54dde6/03-bop_amul-high-protein-paneer-400g.png",
-          "caption": "",
-          "tags": ""
+          "image": "651d0bb00ed0afbb953405ed/03-bop_amul-protein-blueberry-shake-200ml.png"
         },
         {
-          "image": "6661ad7de802146aae54ddda/05-bar-code_amul-high-protein-paneer-400g.jpg",
-          "caption": "",
-          "tags": ""
+          "image": "651d0c0a1aee918509b14191/05-bar-code_amul-protein-blueberry-shake-200ml.jpg"
         },
         {
-          "image": "6661ad7de802146aae54ddde/06-ingredients_amul-high-protein-paneer-400g.jpg",
-          "caption": "",
-          "tags": ""
+          "image": "651d0c0af3bfadbbcc5f79fd/08-storage-norms_amul-protein-blueberry-shake-200ml.jpg"
         },
         {
-          "image": "6661ad7de802146aae54dde4/07-ni-table_amul-high-protein-paneer-400g.jpg",
-          "caption": "",
-          "tags": ""
+          "image": "651d0c0ae8ac81a61d2d4d9d/07-ni-table_amul-protein-blueberry-shake-200ml.jpg"
         },
         {
-          "image": "6661ad7de802146aae54dde5/08-storage-norms_amul-high-protein-paneer-400g.jpg",
-          "caption": "",
-          "tags": ""
+          "image": "651d0c0a0ed0afbb95340e6f/06-ingredients_amul-protein-blueberry-shake-200ml.jpg"
         },
         {
-          "image": "6661ad7de802146aae54dddf/09-manufacturer.jpg",
-          "caption": "",
-          "tags": ""
+          "image": "651d0c0afead728582183c48/09-manufacturer.jpg"
         },
         {
-          "image": "671c9bced3911e00361d45a8/10-marketer.jpg"
+          "image": "671c9a66ba3738002bca6138/10-marketer.jpg"
         }
       ],
       "collections": [
@@ -233,26 +219,26 @@
         "protein"
       ],
       "metafields": {
-        "uom": "g",
-        "weight": "800",
-        "ingredients": "<p>Paneer cubes (milk solids, citric acid), brine [water, iodized salt, preservative (234)].</p>",
-        "benefits": "<ul>\n<li>High protein: 25%</li>\n<li>Low Fat: 6%</li>\n<li>45% Less Calories: Only 85kcal in a serving of 50g</li>\n<li>1 cube = 1g protein</li>\n</ul>",
-        "how_to_useit": "<p>Every cube in this tin weighs approx. 4 g and provides 1 g of protein so if you want to consume 10 g protein then simply take out 10 cubes and consume them the way you like.</p>\n<p>Conveniently easy to store, you can get creative with this paneer to whip up some deliciousness and delight your loved ones.</p>",
-        "product_type": ""
+        "uom": "L",
+        "product_type": "bestseller",
+        "ingredients": "<p>Milk solids, water, sweetener (965, 960), blueberry fruit preparation (3.5%) [blueberry fruit, water, nature identical flavouring substances, stabilizer (440), acidity regulator (330), colours (133, 122)], acidity regulator (330), stabilizers (440, 418), artificial flavouring substances (blueberry).</p>",
+        "benefits": "<ul>\n<li>20g protein</li>\n<li>No added sugar</li>\n<li>Low fat</li>\n<li>Ready to drink</li>\n<li>Convenient PET bottle</li>\n<li>Tasty blueberry fruit</li>\n</ul>",
+        "how_to_useit": "<p>It&rsquo;s a ready to drink protein shake. Tastes best when served chilled.</p>",
+        "weight": "6"
       },
-      "name": "Amul High Protein Paneer, 400 g | Pack of 2",
-      "price": 300,
+      "name": "Amul High Protein Blueberry Shake, 200 mL | Pack of 30",
+      "price": 1500,
+      "compare_price": 1500,
       "brand": "Amul",
-      "sku": "HPPCP01_02",
-      "inventory_allow_out_of_stock": "0",
+      "sku": "DBDCP41_30",
+      "sort_order": 0,
       "available": 1,
       "variants": [],
-      "sort_order": 0,
       "default_variant": null,
-      "inventory_low_stock_quantity": 10,
-      "inventory_quantity": 53,
-      "avg_rating": 4.8,
-      "num_reviews": 10,
+      "inventory_quantity": 622,
+      "avg_rating": 5,
+      "num_reviews": 34,
+      "inventory_allow_out_of_stock": "0",
       "lp_seller_ids": [
         "639c3fc69d3a6d5dc06e7c8c",
         "6500035ebad4464748bd557c",
@@ -266,16 +252,102 @@
         "65000c5ebad4464748bf1d15",
         "6500299751e16335cb316786"
       ],
-      "compare_price": 300,
-      "list_price": 300,
-      "our_price": 300,
-      "original_price": 300,
+      "inventory_low_stock_quantity": 10,
+      "list_price": 1500,
+      "our_price": 1500,
+      "original_price": 1500,
       "discounts_total": 0,
       "discounts_percentage": "0.000",
       "discount_total": 0,
       "entity_type": "ms.products",
       "inventory_management": "automatic",
-      "linked_product_id": "67f5d8f9b86a51002b1433b3",
+      "linked_product_id": "67f5d8fb86b616002ccaf5b9",
+      "seller_id": "65000c5ebad4464748bf1d15",
+      "inventory_management_level": "product"
+    },
+    {
+      "_id": "63410e732677af79f687339b",
+      "seller": "65000c5ebad4464748bf1d15",
+      "alias": "amul-high-protein-buttermilk-200-ml-or-pack-of-30",
+      "images": [
+        {
+          "image": "641a9c5dd94fc09d55a79318/01-hero-image_-multipack-30.png"
+        },
+        {
+          "image": "641a9c66d94fc09d55a7978e/02-fop_amul-protein-buttermilk-tetrapack-200ml.png"
+        },
+        {
+          "image": "641a9c6fd94fc09d55a79bfc/03-bop_amul-protein-buttermilk-tetrapack-200ml.png"
+        },
+        {
+          "image": "641a9c7ad94fc09d55a7a2f4/05-bar-code_amul-protein-buttermilk-tetrapack-200ml.jpg"
+        },
+        {
+          "image": "641a9c81d94fc09d55a7a737/06-ingredients_amul-protein-buttermilk-tetrapack-200ml.jpg"
+        },
+        {
+          "image": "641a9c87d94fc09d55a7a9e2/07-ni-table_amul-protein-buttermilk-tetrapack-200ml.jpg"
+        },
+        {
+          "image": "641a9c90d94fc09d55a7af06/08-storage-norms_amul-protein-buttermilk-tetrapack-200ml.jpg"
+        },
+        {
+          "image": "641a9c95d94fc09d55a7b090/09-manufacturer.jpg"
+        },
+        {
+          "image": "671c9bf7cd134f00248e16fe/10-marketer.jpg"
+        }
+      ],
+      "collections": [
+        "power-of-protein"
+      ],
+      "categories": [
+        "protein"
+      ],
+      "metafields": {
+        "uom": "L",
+        "product_type": "bestseller",
+        "ingredients": "<div ng-bind-html=\"product.metafields.ingredients\" class=\"ng-binding\">\n<p>Milk Solids, Water, Iodized Salt, Stabilizers (440, 418), Active Culture.</p>\n<p><strong>Allergen Information:</strong> Contains Milk</p>\n</div>",
+        "benefits": "",
+        "how_to_useit": "<p>Ready to drink. Shake well before use. Add spices as per taste.</p>",
+        "additional_infomation": "",
+        "weight": "6"
+      },
+      "name": "Amul High Protein Buttermilk, 200 mL | Pack of 30",
+      "price": 750,
+      "compare_price": 750,
+      "sku": "BTMCP11_30",
+      "available": 1,
+      "variants": [],
+      "sort_order": 0,
+      "default_variant": null,
+      "inventory_quantity": 1623,
+      "avg_rating": 4.8,
+      "num_reviews": 55,
+      "brand": "Amul",
+      "inventory_low_stock_quantity": 10,
+      "lp_seller_ids": [
+        "639c3fc69d3a6d5dc06e7c8c",
+        "6500035ebad4464748bd557c",
+        "65029e95cb56f4267893d3fe",
+        "673335e1f21cf10036a4bb67",
+        "64906fdd2bf6788c51a2464b",
+        "64d1fa12834e0d6822b788c2",
+        "6502a0fd073283e338deaa22",
+        "6502b9417dac6a12a03efa74",
+        "650006e7bad4464748be31d4",
+        "65000c5ebad4464748bf1d15",
+        "6500299751e16335cb316786"
+      ],
+      "list_price": 750,
+      "our_price": 750,
+      "original_price": 750,
+      "discounts_total": 0,
+      "discounts_percentage": "0.000",
+      "discount_total": 0,
+      "entity_type": "ms.products",
+      "inventory_management": "automatic",
+      "linked_product_id": "67f5d8fb4c49070024c4d17d",
       "seller_id": "65000c5ebad4464748bf1d15",
       "inventory_management_level": "product"
     },
@@ -538,36 +610,50 @@
       "inventory_management_level": "product"
     },
     {
-      "_id": "651d0d19e8ac81a61d2d70b5",
+      "_id": "6636020d5c0420e92d79ebdd",
       "seller": "6500299751e16335cb316786",
-      "alias": "amul-high-protein-blueberry-shake-200-ml-or-pack-of-30",
+      "alias": "amul-high-protein-paneer-400-g-or-pack-of-2",
       "images": [
         {
-          "image": "651d0bb0f3bfadbbcc5f7214/01-hero-image-multipack-amul-protein-blueberry-shake-200ml.png"
+          "image": "671b30a3caec6f032c8154ed/01-hero-image_amul-high-protein-paneer-400g.png"
         },
         {
-          "image": "651d0bb0fead728582183635/02-fop_amul-protein-blueberry-shake-200ml.png"
+          "image": "6661ad7de802146aae54dde7/02-fop_amul-high-protein-paneer-400g.png",
+          "caption": "1",
+          "tags": ""
         },
         {
-          "image": "651d0bb00ed0afbb953405ed/03-bop_amul-protein-blueberry-shake-200ml.png"
+          "image": "6661ad7de802146aae54dde6/03-bop_amul-high-protein-paneer-400g.png",
+          "caption": "",
+          "tags": ""
         },
         {
-          "image": "651d0c0a1aee918509b14191/05-bar-code_amul-protein-blueberry-shake-200ml.jpg"
+          "image": "6661ad7de802146aae54ddda/05-bar-code_amul-high-protein-paneer-400g.jpg",
+          "caption": "",
+          "tags": ""
         },
         {
-          "image": "651d0c0af3bfadbbcc5f79fd/08-storage-norms_amul-protein-blueberry-shake-200ml.jpg"
+          "image": "6661ad7de802146aae54ddde/06-ingredients_amul-high-protein-paneer-400g.jpg",
+          "caption": "",
+          "tags": ""
         },
         {
-          "image": "651d0c0ae8ac81a61d2d4d9d/07-ni-table_amul-protein-blueberry-shake-200ml.jpg"
+          "image": "6661ad7de802146aae54dde4/07-ni-table_amul-high-protein-paneer-400g.jpg",
+          "caption": "",
+          "tags": ""
         },
         {
-          "image": "651d0c0a0ed0afbb95340e6f/06-ingredients_amul-protein-blueberry-shake-200ml.jpg"
+          "image": "6661ad7de802146aae54dde5/08-storage-norms_amul-high-protein-paneer-400g.jpg",
+          "caption": "",
+          "tags": ""
         },
         {
-          "image": "651d0c0afead728582183c48/09-manufacturer.jpg"
+          "image": "6661ad7de802146aae54dddf/09-manufacturer.jpg",
+          "caption": "",
+          "tags": ""
         },
         {
-          "image": "671c9a66ba3738002bca6138/10-marketer.jpg"
+          "image": "671c9bced3911e00361d45a8/10-marketer.jpg"
         }
       ],
       "collections": [
@@ -577,26 +663,26 @@
         "protein"
       ],
       "metafields": {
-        "uom": "L",
-        "product_type": "bestseller",
-        "ingredients": "<p>Milk solids, water, sweetener (965, 960), blueberry fruit preparation (3.5%) [blueberry fruit, water, nature identical flavouring substances, stabilizer (440), acidity regulator (330), colours (133, 122)], acidity regulator (330), stabilizers (440, 418), artificial flavouring substances (blueberry).</p>",
-        "benefits": "<ul>\n<li>20g protein</li>\n<li>No added sugar</li>\n<li>Low fat</li>\n<li>Ready to drink</li>\n<li>Convenient PET bottle</li>\n<li>Tasty blueberry fruit</li>\n</ul>",
-        "how_to_useit": "<p>It&rsquo;s a ready to drink protein shake. Tastes best when served chilled.</p>",
-        "weight": "6"
+        "uom": "g",
+        "weight": "800",
+        "ingredients": "<p>Paneer cubes (milk solids, citric acid), brine [water, iodized salt, preservative (234)].</p>",
+        "benefits": "<ul>\n<li>High protein: 25%</li>\n<li>Low Fat: 6%</li>\n<li>45% Less Calories: Only 85kcal in a serving of 50g</li>\n<li>1 cube = 1g protein</li>\n</ul>",
+        "how_to_useit": "<p>Every cube in this tin weighs approx. 4 g and provides 1 g of protein so if you want to consume 10 g protein then simply take out 10 cubes and consume them the way you like.</p>\n<p>Conveniently easy to store, you can get creative with this paneer to whip up some deliciousness and delight your loved ones.</p>",
+        "product_type": ""
       },
-      "name": "Amul High Protein Blueberry Shake, 200 mL | Pack of 30",
-      "price": 1500,
-      "compare_price": 1500,
+      "name": "Amul High Protein Paneer, 400 g | Pack of 2",
+      "price": 300,
       "brand": "Amul",
-      "sku": "DBDCP41_30",
-      "sort_order": 0,
+      "sku": "HPPCP01_02",
+      "inventory_allow_out_of_stock": "0",
       "available": 0,
       "variants": [],
+      "sort_order": 0,
       "default_variant": null,
+      "inventory_low_stock_quantity": 10,
       "inventory_quantity": 0,
-      "avg_rating": 5,
-      "num_reviews": 34,
-      "inventory_allow_out_of_stock": "0",
+      "avg_rating": 4.8,
+      "num_reviews": 10,
       "lp_seller_ids": [
         "639c3fc69d3a6d5dc06e7c8c",
         "6500035ebad4464748bd557c",
@@ -610,16 +696,16 @@
         "65000c5ebad4464748bf1d15",
         "6500299751e16335cb316786"
       ],
-      "inventory_low_stock_quantity": 10,
-      "list_price": 1500,
-      "our_price": 1500,
-      "original_price": 1500,
+      "compare_price": 300,
+      "list_price": 300,
+      "our_price": 300,
+      "original_price": 300,
       "discounts_total": 0,
       "discounts_percentage": "0.000",
       "discount_total": 0,
       "entity_type": "ms.products",
       "inventory_management": "automatic",
-      "linked_product_id": "67f5d8b84a391300256d9c33",
+      "linked_product_id": "67f5d8b6b86a51002b142ddd",
       "seller_id": "6500299751e16335cb316786",
       "inventory_management_level": "product"
     },
@@ -953,7 +1039,7 @@
       "inventory_low_stock_quantity": 10,
       "inventory_quantity": 0,
       "avg_rating": 4.9,
-      "num_reviews": 18,
+      "num_reviews": 19,
       "lp_seller_ids": [
         "639c3fc69d3a6d5dc06e7c8c",
         "6500035ebad4464748bd557c",
@@ -1327,92 +1413,6 @@
       "entity_type": "ms.products",
       "inventory_management": "automatic",
       "linked_product_id": "67f5d8b386b616002ccaef4b",
-      "seller_id": "6500299751e16335cb316786",
-      "inventory_management_level": "product"
-    },
-    {
-      "_id": "63410e732677af79f687339b",
-      "seller": "6500299751e16335cb316786",
-      "alias": "amul-high-protein-buttermilk-200-ml-or-pack-of-30",
-      "images": [
-        {
-          "image": "641a9c5dd94fc09d55a79318/01-hero-image_-multipack-30.png"
-        },
-        {
-          "image": "641a9c66d94fc09d55a7978e/02-fop_amul-protein-buttermilk-tetrapack-200ml.png"
-        },
-        {
-          "image": "641a9c6fd94fc09d55a79bfc/03-bop_amul-protein-buttermilk-tetrapack-200ml.png"
-        },
-        {
-          "image": "641a9c7ad94fc09d55a7a2f4/05-bar-code_amul-protein-buttermilk-tetrapack-200ml.jpg"
-        },
-        {
-          "image": "641a9c81d94fc09d55a7a737/06-ingredients_amul-protein-buttermilk-tetrapack-200ml.jpg"
-        },
-        {
-          "image": "641a9c87d94fc09d55a7a9e2/07-ni-table_amul-protein-buttermilk-tetrapack-200ml.jpg"
-        },
-        {
-          "image": "641a9c90d94fc09d55a7af06/08-storage-norms_amul-protein-buttermilk-tetrapack-200ml.jpg"
-        },
-        {
-          "image": "641a9c95d94fc09d55a7b090/09-manufacturer.jpg"
-        },
-        {
-          "image": "671c9bf7cd134f00248e16fe/10-marketer.jpg"
-        }
-      ],
-      "collections": [
-        "power-of-protein"
-      ],
-      "categories": [
-        "protein"
-      ],
-      "metafields": {
-        "uom": "L",
-        "product_type": "bestseller",
-        "ingredients": "<div ng-bind-html=\"product.metafields.ingredients\" class=\"ng-binding\">\n<p>Milk Solids, Water, Iodized Salt, Stabilizers (440, 418), Active Culture.</p>\n<p><strong>Allergen Information:</strong> Contains Milk</p>\n</div>",
-        "benefits": "",
-        "how_to_useit": "<p>Ready to drink. Shake well before use. Add spices as per taste.</p>",
-        "additional_infomation": "",
-        "weight": "6"
-      },
-      "name": "Amul High Protein Buttermilk, 200 mL | Pack of 30",
-      "price": 750,
-      "compare_price": 750,
-      "sku": "BTMCP11_30",
-      "available": 0,
-      "variants": [],
-      "sort_order": 0,
-      "default_variant": null,
-      "inventory_quantity": 0,
-      "avg_rating": 4.8,
-      "num_reviews": 55,
-      "brand": "Amul",
-      "inventory_low_stock_quantity": 10,
-      "lp_seller_ids": [
-        "639c3fc69d3a6d5dc06e7c8c",
-        "6500035ebad4464748bd557c",
-        "65029e95cb56f4267893d3fe",
-        "673335e1f21cf10036a4bb67",
-        "64906fdd2bf6788c51a2464b",
-        "64d1fa12834e0d6822b788c2",
-        "6502a0fd073283e338deaa22",
-        "6502b9417dac6a12a03efa74",
-        "650006e7bad4464748be31d4",
-        "65000c5ebad4464748bf1d15",
-        "6500299751e16335cb316786"
-      ],
-      "list_price": 750,
-      "our_price": 750,
-      "original_price": 750,
-      "discounts_total": 0,
-      "discounts_percentage": "0.000",
-      "discount_total": 0,
-      "entity_type": "ms.products",
-      "inventory_management": "automatic",
-      "linked_product_id": "67f5d8b8555a9f003fd4daed",
       "seller_id": "6500299751e16335cb316786",
       "inventory_management_level": "product"
     },

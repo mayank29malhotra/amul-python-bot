@@ -36,21 +36,39 @@
     "description": null
   },
   {
-    "name": "Amul High Protein Paneer, 400 g | Pack of 2",
-    "alias": "amul-high-protein-paneer-400-g-or-pack-of-2",
-    "url": "https://shop.amul.com/en/product/amul-high-protein-paneer-400-g-or-pack-of-2",
-    "price": 300,
-    "compare_price": 300,
-    "inventory_quantity": 53,
+    "name": "Amul High Protein Blueberry Shake, 200 mL | Pack of 30",
+    "alias": "amul-high-protein-blueberry-shake-200-ml-or-pack-of-30",
+    "url": "https://shop.amul.com/en/product/amul-high-protein-blueberry-shake-200-ml-or-pack-of-30",
+    "price": 1500,
+    "compare_price": 1500,
+    "inventory_quantity": 622,
     "available": 1,
-    "image": "671b30a3caec6f032c8154ed/01-hero-image_amul-high-protein-paneer-400g.png",
+    "image": "651d0bb0f3bfadbbcc5f7214/01-hero-image-multipack-amul-protein-blueberry-shake-200ml.png",
     "categories": [
       "protein"
     ],
     "collections": [
       "power-of-protein"
     ],
-    "benefits": "<ul>\n<li>High protein: 25%</li>\n<li>Low Fat: 6%</li>\n<li>45% Less Calories: Only 85kcal in a serving of 50g</li>\n<li>1 cube = 1g protein</li>\n</ul>",
+    "benefits": "<ul>\n<li>20g protein</li>\n<li>No added sugar</li>\n<li>Low fat</li>\n<li>Ready to drink</li>\n<li>Convenient PET bottle</li>\n<li>Tasty blueberry fruit</li>\n</ul>",
+    "description": null
+  },
+  {
+    "name": "Amul High Protein Buttermilk, 200 mL | Pack of 30",
+    "alias": "amul-high-protein-buttermilk-200-ml-or-pack-of-30",
+    "url": "https://shop.amul.com/en/product/amul-high-protein-buttermilk-200-ml-or-pack-of-30",
+    "price": 750,
+    "compare_price": 750,
+    "inventory_quantity": 1623,
+    "available": 1,
+    "image": "641a9c5dd94fc09d55a79318/01-hero-image_-multipack-30.png",
+    "categories": [
+      "protein"
+    ],
+    "collections": [
+      "power-of-protein"
+    ],
+    "benefits": "",
     "description": null
   },
   {
@@ -108,21 +126,21 @@
     "description": null
   },
   {
-    "name": "Amul High Protein Blueberry Shake, 200 mL | Pack of 30",
-    "alias": "amul-high-protein-blueberry-shake-200-ml-or-pack-of-30",
-    "url": "https://shop.amul.com/en/product/amul-high-protein-blueberry-shake-200-ml-or-pack-of-30",
-    "price": 1500,
-    "compare_price": 1500,
+    "name": "Amul High Protein Paneer, 400 g | Pack of 2",
+    "alias": "amul-high-protein-paneer-400-g-or-pack-of-2",
+    "url": "https://shop.amul.com/en/product/amul-high-protein-paneer-400-g-or-pack-of-2",
+    "price": 300,
+    "compare_price": 300,
     "inventory_quantity": 0,
     "available": 0,
-    "image": "651d0bb0f3bfadbbcc5f7214/01-hero-image-multipack-amul-protein-blueberry-shake-200ml.png",
+    "image": "671b30a3caec6f032c8154ed/01-hero-image_amul-high-protein-paneer-400g.png",
     "categories": [
       "protein"
     ],
     "collections": [
       "power-of-protein"
     ],
-    "benefits": "<ul>\n<li>20g protein</li>\n<li>No added sugar</li>\n<li>Low fat</li>\n<li>Ready to drink</li>\n<li>Convenient PET bottle</li>\n<li>Tasty blueberry fruit</li>\n</ul>",
+    "benefits": "<ul>\n<li>High protein: 25%</li>\n<li>Low Fat: 6%</li>\n<li>45% Less Calories: Only 85kcal in a serving of 50g</li>\n<li>1 cube = 1g protein</li>\n</ul>",
     "description": null
   },
   {
@@ -270,24 +288,6 @@
       "power-of-protein"
     ],
     "benefits": "<ul>\n<li>15g protein</li>\n<li>Low fat</li>\n<li>Lactose free</li>\n<li>No added sugar</li>\n<li>Refreshing</li>\n</ul>",
-    "description": null
-  },
-  {
-    "name": "Amul High Protein Buttermilk, 200 mL | Pack of 30",
-    "alias": "amul-high-protein-buttermilk-200-ml-or-pack-of-30",
-    "url": "https://shop.amul.com/en/product/amul-high-protein-buttermilk-200-ml-or-pack-of-30",
-    "price": 750,
-    "compare_price": 750,
-    "inventory_quantity": 0,
-    "available": 0,
-    "image": "641a9c5dd94fc09d55a79318/01-hero-image_-multipack-30.png",
-    "categories": [
-      "protein"
-    ],
-    "collections": [
-      "power-of-protein"
-    ],
-    "benefits": "",
     "description": null
   },
   {
