@@ -1,5 +1,4 @@
 python-telegram-bot==20.3
-beautifulsoup4
 apscheduler
 requests
-pymongo
+beautifulsoup4 
