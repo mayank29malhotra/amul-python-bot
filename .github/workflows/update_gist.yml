@@ -1,13 +1,17 @@
-name: Update Amul API Headers
+name: Amul API Cookie Fetch & Gist Update
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Every 2 hours
-  workflow_dispatch:       # Allow manual runs
+    - cron: '0 */4 * * *'  # Every 2 hours
+  workflow_dispatch:
 
 jobs:
-  update-headers:
+  fetch-and-update:
     runs-on: ubuntu-latest
+    env:
+      TOKEN_GITHUB: ${{ secrets.TOKEN_GITHUB }}
+      GIST_ID: ${{ secrets.GIST_ID }}
+      GIST_FILENAME: api_url_and_headers.json
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -25,10 +29,5 @@ jobs:
           sudo apt-get install -y chromium-browser
           echo "CHROME_BINARY=/usr/bin/chromium-browser" >> $GITHUB_ENV
 
-      - name: Run update script
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIST_ID: ${{ secrets.GIST_ID }}
-          GIST_FILENAME: ${{ secrets.GIST_FILENAME }}
-        run: |
-          python fetch_cookie_and_update.py
+      - name: Run fetch_cookie_and_update.py
+        run: python fetch_cookie_and_update.py

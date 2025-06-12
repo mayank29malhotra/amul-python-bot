@@ -1,3 +1,16 @@
 [
-
+  {
+    "user_id": 123456789,
+    "alias": "amul-protein-chocolate",
+    "name": "Amul Protein Chocolate",
+    "pincode": "400001",
+    "last_notified_status": "out_of_stock"
+  },
+  {
+    "user_id": 987654321,
+    "alias": "amul-protein-vanilla",
+    "name": "Amul Protein Vanilla",
+    "pincode": "110001",
+    "last_notified_status": "in_stock"
+  }
 ]
