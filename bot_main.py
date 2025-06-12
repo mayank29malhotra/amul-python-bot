@@ -12,18 +12,21 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 async def products(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    # Ask for pincode if not already provided in user_data
+    if 'pincode' not in context.user_data:
+        await update.message.reply_text("Please enter your 6-digit delivery pincode:")
+        context.user_data['awaiting_pincode_for_products'] = True
+        return
     products = get_products()
     if not products:
         await update.message.reply_text("No products found. Please try again later.")
         return
-    # Telegram requires callback_data to be max 64 bytes and only valid UTF-8
-    # We'll use only the alias, and ensure it's a string and not too long
     buttons = [
         [InlineKeyboardButton(f"{p['name']} (₹{p['price']})", callback_data=p['alias'][:60])]
         for p in products
     ]
     await update.message.reply_text(
-        "Select a product to subscribe:",
+        f"Select a product to subscribe for pincode {context.user_data['pincode']}:",
         reply_markup=InlineKeyboardMarkup(buttons)
     )
 
@@ -50,8 +53,6 @@ with open("pincodes.txt", "r", encoding="utf-8") as f:
 
 async def handle_pincode(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.message.from_user.id
-    if user_id not in pending_pincode:
-        return  # Ignore messages not expecting pincode
     pincode = update.message.text.strip()
     if not pincode.isdigit() or len(pincode) != 6:
         await update.message.reply_text("Please enter a valid 6-digit pincode:")
@@ -59,9 +60,16 @@ async def handle_pincode(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if pincode not in SUPPORTED_PINCODES:
         await update.message.reply_text("Your pincode is not supported for tracking yet.")
         return
+    # If user is awaiting pincode for products, store and show products
+    if context.user_data.get('awaiting_pincode_for_products'):
+        context.user_data['pincode'] = pincode
+        context.user_data.pop('awaiting_pincode_for_products', None)
+        await products(update, context)
+        return
+    if user_id not in pending_pincode:
+        return  # Ignore messages not expecting pincode for subscription
     product = pending_pincode.pop(user_id)
     subs = get_subscriptions()
-    # Remove any existing sub for this user
     subs = [s for s in subs if s["user_id"] != user_id]
     last_status = "in_stock" if product.get("inventory_quantity", 0) > 0 else "out_of_stock"
     subs.append({
