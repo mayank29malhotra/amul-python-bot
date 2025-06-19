@@ -2,7 +2,7 @@ name: Amul API Cookie Fetch & Gist Update
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # Every 2 hours
+    - cron: '0 */3 * * *'  # Every 2 hours
   workflow_dispatch:
 
 jobs:
